@@ -10,9 +10,9 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 7542b0a8b93c044618b3d84f58b4bc3c, type: 3}
-  m_Name: SampleHeadMapper
+  m_Name: SampleHeadDomi
   m_EditorClassIdentifier: 
-  m_RigPrefab: {fileID: 3989087790041628964, guid: 01105ad442a2c6842a902b810878a5e6, type: 3}
+  m_RigPrefab: {fileID: 919132149155446097, guid: 967b15cca2d1c6843859c8fe5af3c1e2, type: 3}
   m_ShapeMatchTolerance: 0.6
   m_DefaultEvaluator: {fileID: 11400000, guid: 23f316e41ee3e46af9c5d6fdc69047b1, type: 2}
   m_InvertMappings: 0
