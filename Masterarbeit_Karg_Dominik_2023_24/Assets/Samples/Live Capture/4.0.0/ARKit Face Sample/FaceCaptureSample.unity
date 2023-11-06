@@ -123,107 +123,6 @@ NavMeshSettings:
     debug:
       m_Flags: 0
   m_NavMeshData: {fileID: 0}
---- !u!1 &24446111 stripped
-GameObject:
-  m_CorrespondingSourceObject: {fileID: 919132149155446097, guid: 0a8e593813f3f7a489a60fca13f3344d, type: 3}
-  m_PrefabInstance: {fileID: 366675672}
-  m_PrefabAsset: {fileID: 0}
---- !u!114 &24446112
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 24446111}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: db8052edd37c5da4ba56c08244eb648a, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  m_Mapper: {fileID: 11400000, guid: 4f90157318100c747a1ade22a6f1cfc4, type: 2}
-  m_EnabledChannels: 15
-  m_BlendShapes:
-    BrowDownLeft: 0
-    BrowDownRight: 0
-    BrowInnerUp: 0
-    BrowOuterUpLeft: 0
-    BrowOuterUpRight: 0
-    CheekPuff: 0
-    CheekSquintLeft: 0
-    CheekSquintRight: 0
-    EyeBlinkLeft: 0
-    EyeBlinkRight: 0
-    EyeLookDownLeft: 0
-    EyeLookDownRight: 0
-    EyeLookInLeft: 0
-    EyeLookInRight: 0
-    EyeLookOutLeft: 0
-    EyeLookOutRight: 0
-    EyeLookUpLeft: 0
-    EyeLookUpRight: 0
-    EyeSquintLeft: 0
-    EyeSquintRight: 0
-    EyeWideLeft: 0
-    EyeWideRight: 0
-    JawForward: 0
-    JawLeft: 0
-    JawOpen: 0
-    JawRight: 0
-    MouthClose: 0
-    MouthDimpleLeft: 0
-    MouthDimpleRight: 0
-    MouthFrownLeft: 0
-    MouthFrownRight: 0
-    MouthFunnel: 0
-    MouthLeft: 0
-    MouthLowerDownLeft: 0
-    MouthLowerDownRight: 0
-    MouthPressLeft: 0
-    MouthPressRight: 0
-    MouthPucker: 0
-    MouthRight: 0
-    MouthRollLower: 0
-    MouthRollUpper: 0
-    MouthShrugLower: 0
-    MouthShrugUpper: 0
-    MouthSmileLeft: 0
-    MouthSmileRight: 0
-    MouthStretchLeft: 0
-    MouthStretchRight: 0
-    MouthUpperUpLeft: 0
-    MouthUpperUpRight: 0
-    NoseSneerLeft: 0
-    NoseSneerRight: 0
-    TongueOut: 0
-  m_HeadPosition: {x: 0, y: 0, z: 0}
-  m_HeadOrientation: {x: 0, y: 0, z: 0}
-  m_LeftEyeOrientation: {x: 0, y: 0, z: 0}
-  m_RightEyeOrientation: {x: 0, y: 0, z: 0}
-  m_BlendShapesEnabled: 0
-  m_HeadPositionEnabled: 0
-  m_HeadOrientationEnabled: 0
-  m_EyeOrientationEnabled: 0
---- !u!95 &24446113
-Animator:
-  serializedVersion: 5
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 24446111}
-  m_Enabled: 1
-  m_Avatar: {fileID: 0}
-  m_Controller: {fileID: 0}
-  m_CullingMode: 0
-  m_UpdateMode: 0
-  m_ApplyRootMotion: 0
-  m_LinearVelocityBlending: 0
-  m_StabilizeFeet: 0
-  m_WarningMessage: 
-  m_HasTransformHierarchy: 1
-  m_AllowConstantClipSamplingOptimization: 1
-  m_KeepAnimatorStateOnDisable: 0
-  m_WriteDefaultValuesOnDisable: 0
 --- !u!1 &150083439
 GameObject:
   m_ObjectHideFlags: 19
@@ -255,228 +154,7 @@ Transform:
   m_Children: []
   m_Father: {fileID: 0}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!1 &178625139
-GameObject:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  serializedVersion: 6
-  m_Component:
-  - component: {fileID: 178625141}
-  - component: {fileID: 178625140}
-  m_Layer: 0
-  m_Name: FaceDevice
-  m_TagString: Untagged
-  m_Icon: {fileID: 0}
-  m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
-  m_IsActive: 1
---- !u!114 &178625140
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 178625139}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: c3c82e07b9a14fe3958806045dbb5693, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  m_SortingOrder: 0
-  m_IsLive: 1
-  m_Actor: {fileID: 24446112}
-  m_Channels: 15
-  m_Recorder:
-    m_PositionError: 0.5
-    m_RotationError: 0.5
-    m_BlendShapeError: 0.5
-  m_SyncBuffer:
-    m_Object: {fileID: 178625140}
-    m_Guid: 1c1053c0-4fb2-40ad-a305-c55c6219e280
-    m_BufferSize: 5
-    m_Offset:
-      m_FrameNumber: 0
-      m_Subframe:
-        m_Subframe: 0
-        m_Resolution: 0
-    m_IsSynchronized: 0
-  m_Pose:
-    BlendShapes:
-      BrowDownLeft: 0
-      BrowDownRight: 0
-      BrowInnerUp: 0.18940628
-      BrowOuterUpLeft: 0.08331962
-      BrowOuterUpRight: 0.08505386
-      CheekPuff: 0.08340006
-      CheekSquintLeft: 0.06186379
-      CheekSquintRight: 0.05410194
-      EyeBlinkLeft: 0.17857555
-      EyeBlinkRight: 0.17761031
-      EyeLookDownLeft: 0.19546106
-      EyeLookDownRight: 0.19625883
-      EyeLookInLeft: 0.13776511
-      EyeLookInRight: 0
-      EyeLookOutLeft: 0
-      EyeLookOutRight: 0.023105165
-      EyeLookUpLeft: 0
-      EyeLookUpRight: 0
-      EyeSquintLeft: 0.08728113
-      EyeSquintRight: 0.08728258
-      EyeWideLeft: 0
-      EyeWideRight: 0
-      JawForward: 0.16409895
-      JawLeft: 0
-      JawOpen: 0.095578775
-      JawRight: 0.025591647
-      MouthClose: 0.06680375
-      MouthDimpleLeft: 0.18070044
-      MouthDimpleRight: 0.21869706
-      MouthFrownLeft: 0.07656906
-      MouthFrownRight: 0.05418443
-      MouthFunnel: 0.044808146
-      MouthLeft: 0
-      MouthLowerDownLeft: 0.15667892
-      MouthLowerDownRight: 0.1445694
-      MouthPressLeft: 0.17962927
-      MouthPressRight: 0.16376135
-      MouthPucker: 0.091975845
-      MouthRight: 0.04061007
-      MouthRollLower: 0.18566784
-      MouthRollUpper: 0.20139867
-      MouthShrugLower: 0.09504739
-      MouthShrugUpper: 0.24794592
-      MouthSmileLeft: 0
-      MouthSmileRight: 0
-      MouthStretchLeft: 0.24954695
-      MouthStretchRight: 0.2840552
-      MouthUpperUpLeft: 0.049690925
-      MouthUpperUpRight: 0.058451787
-      NoseSneerLeft: 0.11031071
-      NoseSneerRight: 0.117808916
-      TongueOut: 0.000057026402
-    HeadPosition: {x: -0.0076246085, y: 0.24298425, z: -0.3093646}
-    HeadOrientation: {x: -0.044606797, y: 0.056836527, z: 0.017850721, w: -0.9972268}
-    LeftEyeOrientation: {x: -0.05990647, y: -0.007044337, z: -0.00042277126, w: -0.9981791}
-    RightEyeOrientation: {x: -0.059611917, y: -0.0419906, z: -0.0025098296, w: -0.9973349}
---- !u!4 &178625141
-Transform:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 178625139}
-  serializedVersion: 2
-  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: 0, y: 0, z: 0}
-  m_LocalScale: {x: 1, y: 1, z: 1}
-  m_ConstrainProportionsScale: 0
-  m_Children: []
-  m_Father: {fileID: 0}
-  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!1 &274307138 stripped
-GameObject:
-  m_CorrespondingSourceObject: {fileID: 919132149155446097, guid: 967b15cca2d1c6843859c8fe5af3c1e2, type: 3}
-  m_PrefabInstance: {fileID: 1036066341}
-  m_PrefabAsset: {fileID: 0}
---- !u!114 &274307140
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 274307138}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: db8052edd37c5da4ba56c08244eb648a, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  m_Mapper: {fileID: 11400000, guid: 404263e7d14f3874bae2687d84a213b9, type: 2}
-  m_EnabledChannels: 15
-  m_BlendShapes:
-    BrowDownLeft: 0
-    BrowDownRight: 0
-    BrowInnerUp: 0
-    BrowOuterUpLeft: 0
-    BrowOuterUpRight: 0
-    CheekPuff: 0
-    CheekSquintLeft: 0
-    CheekSquintRight: 0
-    EyeBlinkLeft: 0
-    EyeBlinkRight: 0
-    EyeLookDownLeft: 0
-    EyeLookDownRight: 0
-    EyeLookInLeft: 0
-    EyeLookInRight: 0
-    EyeLookOutLeft: 0
-    EyeLookOutRight: 0
-    EyeLookUpLeft: 0
-    EyeLookUpRight: 0
-    EyeSquintLeft: 0
-    EyeSquintRight: 0
-    EyeWideLeft: 0
-    EyeWideRight: 0
-    JawForward: 0
-    JawLeft: 0
-    JawOpen: 0
-    JawRight: 0
-    MouthClose: 0
-    MouthDimpleLeft: 0
-    MouthDimpleRight: 0
-    MouthFrownLeft: 0
-    MouthFrownRight: 0
-    MouthFunnel: 0
-    MouthLeft: 0
-    MouthLowerDownLeft: 0
-    MouthLowerDownRight: 0
-    MouthPressLeft: 0
-    MouthPressRight: 0
-    MouthPucker: 0
-    MouthRight: 0
-    MouthRollLower: 0
-    MouthRollUpper: 0
-    MouthShrugLower: 0
-    MouthShrugUpper: 0
-    MouthSmileLeft: 0
-    MouthSmileRight: 0
-    MouthStretchLeft: 0
-    MouthStretchRight: 0
-    MouthUpperUpLeft: 0
-    MouthUpperUpRight: 0
-    NoseSneerLeft: 0
-    NoseSneerRight: 0
-    TongueOut: 0
-  m_HeadPosition: {x: 0, y: 0, z: 0}
-  m_HeadOrientation: {x: 0, y: 0, z: 0}
-  m_LeftEyeOrientation: {x: 0, y: 0, z: 0}
-  m_RightEyeOrientation: {x: 0, y: 0, z: 0}
-  m_BlendShapesEnabled: 0
-  m_HeadPositionEnabled: 0
-  m_HeadOrientationEnabled: 0
-  m_EyeOrientationEnabled: 0
---- !u!95 &274307141
-Animator:
-  serializedVersion: 5
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 274307138}
-  m_Enabled: 1
-  m_Avatar: {fileID: 0}
-  m_Controller: {fileID: 0}
-  m_CullingMode: 0
-  m_UpdateMode: 0
-  m_ApplyRootMotion: 0
-  m_LinearVelocityBlending: 0
-  m_StabilizeFeet: 0
-  m_WarningMessage: 
-  m_HasTransformHierarchy: 1
-  m_AllowConstantClipSamplingOptimization: 1
-  m_KeepAnimatorStateOnDisable: 0
-  m_WriteDefaultValuesOnDisable: 0
---- !u!1001 &366675672
+--- !u!1001 &467666788
 PrefabInstance:
   m_ObjectHideFlags: 0
   serializedVersion: 2
@@ -528,16 +206,18 @@ PrefabInstance:
       propertyPath: m_Name
       value: SampleHead
       objectReference: {fileID: 0}
+    - target: {fileID: 4042940087036422592, guid: 0a8e593813f3f7a489a60fca13f3344d, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 0.451
+      objectReference: {fileID: 0}
+    - target: {fileID: 4042940087036422592, guid: 0a8e593813f3f7a489a60fca13f3344d, type: 3}
+      propertyPath: m_LocalPosition.z
+      value: -0
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
-    m_AddedComponents:
-    - targetCorrespondingSourceObject: {fileID: 919132149155446097, guid: 0a8e593813f3f7a489a60fca13f3344d, type: 3}
-      insertIndex: -1
-      addedObject: {fileID: 24446113}
-    - targetCorrespondingSourceObject: {fileID: 919132149155446097, guid: 0a8e593813f3f7a489a60fca13f3344d, type: 3}
-      insertIndex: -1
-      addedObject: {fileID: 24446112}
+    m_AddedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 0a8e593813f3f7a489a60fca13f3344d, type: 3}
 --- !u!1 &625637360
 GameObject:
@@ -615,93 +295,23 @@ PrefabInstance:
     m_AddedGameObjects: []
     m_AddedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: fc7b310ba84a21242b0c9c7b6c10041a, type: 3}
---- !u!1001 &1036066341
-PrefabInstance:
-  m_ObjectHideFlags: 0
-  serializedVersion: 2
-  m_Modification:
-    serializedVersion: 3
-    m_TransformParent: {fileID: 0}
-    m_Modifications:
-    - target: {fileID: -8679921383154817045, guid: 967b15cca2d1c6843859c8fe5af3c1e2, type: 3}
-      propertyPath: m_LocalPosition.x
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: -8679921383154817045, guid: 967b15cca2d1c6843859c8fe5af3c1e2, type: 3}
-      propertyPath: m_LocalPosition.y
-      value: -1.31
-      objectReference: {fileID: 0}
-    - target: {fileID: -8679921383154817045, guid: 967b15cca2d1c6843859c8fe5af3c1e2, type: 3}
-      propertyPath: m_LocalPosition.z
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: -8679921383154817045, guid: 967b15cca2d1c6843859c8fe5af3c1e2, type: 3}
-      propertyPath: m_LocalRotation.w
-      value: 1
-      objectReference: {fileID: 0}
-    - target: {fileID: -8679921383154817045, guid: 967b15cca2d1c6843859c8fe5af3c1e2, type: 3}
-      propertyPath: m_LocalRotation.x
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: -8679921383154817045, guid: 967b15cca2d1c6843859c8fe5af3c1e2, type: 3}
-      propertyPath: m_LocalRotation.y
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: -8679921383154817045, guid: 967b15cca2d1c6843859c8fe5af3c1e2, type: 3}
-      propertyPath: m_LocalRotation.z
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: -8679921383154817045, guid: 967b15cca2d1c6843859c8fe5af3c1e2, type: 3}
-      propertyPath: m_LocalEulerAnglesHint.x
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: -8679921383154817045, guid: 967b15cca2d1c6843859c8fe5af3c1e2, type: 3}
-      propertyPath: m_LocalEulerAnglesHint.y
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: -8679921383154817045, guid: 967b15cca2d1c6843859c8fe5af3c1e2, type: 3}
-      propertyPath: m_LocalEulerAnglesHint.z
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 919132149155446097, guid: 967b15cca2d1c6843859c8fe5af3c1e2, type: 3}
-      propertyPath: m_Name
-      value: Anna_FBX_2
-      objectReference: {fileID: 0}
-    m_RemovedComponents: []
-    m_RemovedGameObjects: []
-    m_AddedGameObjects: []
-    m_AddedComponents:
-    - targetCorrespondingSourceObject: {fileID: 919132149155446097, guid: 967b15cca2d1c6843859c8fe5af3c1e2, type: 3}
-      insertIndex: -1
-      addedObject: {fileID: 274307141}
-    - targetCorrespondingSourceObject: {fileID: 919132149155446097, guid: 967b15cca2d1c6843859c8fe5af3c1e2, type: 3}
-      insertIndex: -1
-      addedObject: {fileID: 274307140}
-  m_SourcePrefab: {fileID: 100100000, guid: 967b15cca2d1c6843859c8fe5af3c1e2, type: 3}
---- !u!1 &1078992455
-GameObject:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
+--- !u!4 &1040986574 stripped
+Transform:
+  m_CorrespondingSourceObject: {fileID: 572617754110402786, guid: 5258ad470c81c8a4499a7690b9a49376, type: 3}
+  m_PrefabInstance: {fileID: 1456621756}
   m_PrefabAsset: {fileID: 0}
-  serializedVersion: 6
-  m_Component:
-  - component: {fileID: 1078992457}
-  - component: {fileID: 1078992456}
-  m_Layer: 0
-  m_Name: FaceDevice (1)
-  m_TagString: Untagged
-  m_Icon: {fileID: 0}
-  m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
-  m_IsActive: 1
---- !u!114 &1078992456
+--- !u!1 &1100479254 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 919132149155446097, guid: 5258ad470c81c8a4499a7690b9a49376, type: 3}
+  m_PrefabInstance: {fileID: 1456621756}
+  m_PrefabAsset: {fileID: 0}
+--- !u!114 &1100479255
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1078992455}
+  m_GameObject: {fileID: 1100479254}
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: c3c82e07b9a14fe3958806045dbb5693, type: 3}
@@ -709,15 +319,15 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   m_SortingOrder: 0
   m_IsLive: 1
-  m_Actor: {fileID: 274307140}
+  m_Actor: {fileID: 1100479256}
   m_Channels: 15
   m_Recorder:
     m_PositionError: 0.5
     m_RotationError: 0.5
     m_BlendShapeError: 0.5
   m_SyncBuffer:
-    m_Object: {fileID: 1078992456}
-    m_Guid: aa7d3fd3-31e9-468d-8597-ff8f59b13d91
+    m_Object: {fileID: 1100479255}
+    m_Guid: b228cf3c-d6f5-4542-b303-0ecef1ea4c23
     m_BufferSize: 5
     m_Offset:
       m_FrameNumber: 0
@@ -729,75 +339,156 @@ MonoBehaviour:
     BlendShapes:
       BrowDownLeft: 0
       BrowDownRight: 0
-      BrowInnerUp: 0.18940628
-      BrowOuterUpLeft: 0.08331962
-      BrowOuterUpRight: 0.08505386
-      CheekPuff: 0.08340006
-      CheekSquintLeft: 0.06186379
-      CheekSquintRight: 0.05410194
-      EyeBlinkLeft: 0.17857555
-      EyeBlinkRight: 0.17761031
-      EyeLookDownLeft: 0.19546106
-      EyeLookDownRight: 0.19625883
-      EyeLookInLeft: 0.13776511
+      BrowInnerUp: 0
+      BrowOuterUpLeft: 0
+      BrowOuterUpRight: 0
+      CheekPuff: 0
+      CheekSquintLeft: 0
+      CheekSquintRight: 0
+      EyeBlinkLeft: 0
+      EyeBlinkRight: 0
+      EyeLookDownLeft: 0
+      EyeLookDownRight: 0
+      EyeLookInLeft: 0
       EyeLookInRight: 0
       EyeLookOutLeft: 0
-      EyeLookOutRight: 0.023105165
+      EyeLookOutRight: 0
       EyeLookUpLeft: 0
       EyeLookUpRight: 0
-      EyeSquintLeft: 0.08728113
-      EyeSquintRight: 0.08728258
+      EyeSquintLeft: 0
+      EyeSquintRight: 0
       EyeWideLeft: 0
       EyeWideRight: 0
-      JawForward: 0.16409895
+      JawForward: 0
       JawLeft: 0
-      JawOpen: 0.095578775
-      JawRight: 0.025591647
-      MouthClose: 0.06680375
-      MouthDimpleLeft: 0.18070044
-      MouthDimpleRight: 0.21869706
-      MouthFrownLeft: 0.07656906
-      MouthFrownRight: 0.05418443
-      MouthFunnel: 0.044808146
+      JawOpen: 0
+      JawRight: 0
+      MouthClose: 0
+      MouthDimpleLeft: 0
+      MouthDimpleRight: 0
+      MouthFrownLeft: 0
+      MouthFrownRight: 0
+      MouthFunnel: 0
       MouthLeft: 0
-      MouthLowerDownLeft: 0.15667892
-      MouthLowerDownRight: 0.1445694
-      MouthPressLeft: 0.17962927
-      MouthPressRight: 0.16376135
-      MouthPucker: 0.091975845
-      MouthRight: 0.04061007
-      MouthRollLower: 0.18566784
-      MouthRollUpper: 0.20139867
-      MouthShrugLower: 0.09504739
-      MouthShrugUpper: 0.24794592
+      MouthLowerDownLeft: 0
+      MouthLowerDownRight: 0
+      MouthPressLeft: 0
+      MouthPressRight: 0
+      MouthPucker: 0
+      MouthRight: 0
+      MouthRollLower: 0
+      MouthRollUpper: 0
+      MouthShrugLower: 0
+      MouthShrugUpper: 0
       MouthSmileLeft: 0
       MouthSmileRight: 0
-      MouthStretchLeft: 0.24954695
-      MouthStretchRight: 0.2840552
-      MouthUpperUpLeft: 0.049690925
-      MouthUpperUpRight: 0.058451787
-      NoseSneerLeft: 0.11031071
-      NoseSneerRight: 0.117808916
-      TongueOut: 0.000057026402
-    HeadPosition: {x: -0.0076246085, y: 0.24298425, z: -0.3093646}
-    HeadOrientation: {x: -0.044606797, y: 0.056836527, z: 0.017850721, w: -0.9972268}
-    LeftEyeOrientation: {x: -0.05990647, y: -0.007044337, z: -0.00042277126, w: -0.9981791}
-    RightEyeOrientation: {x: -0.059611917, y: -0.0419906, z: -0.0025098296, w: -0.9973349}
---- !u!4 &1078992457
-Transform:
+      MouthStretchLeft: 0
+      MouthStretchRight: 0
+      MouthUpperUpLeft: 0
+      MouthUpperUpRight: 0
+      NoseSneerLeft: 0
+      NoseSneerRight: 0
+      TongueOut: 0
+    HeadPosition: {x: 0, y: 0, z: 0}
+    HeadOrientation: {x: 0, y: 0, z: 0, w: 1}
+    LeftEyeOrientation: {x: 0, y: 0, z: 0, w: 1}
+    RightEyeOrientation: {x: 0, y: 0, z: 0, w: 1}
+--- !u!114 &1100479256
+MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1078992455}
-  serializedVersion: 2
-  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: 0, y: 0, z: 0}
-  m_LocalScale: {x: 1, y: 1, z: 1}
-  m_ConstrainProportionsScale: 0
-  m_Children: []
-  m_Father: {fileID: 0}
-  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+  m_GameObject: {fileID: 1100479254}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: db8052edd37c5da4ba56c08244eb648a, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_Mapper: {fileID: 11400000, guid: 4f90157318100c747a1ade22a6f1cfc4, type: 2}
+  m_EnabledChannels: 15
+  m_BlendShapes:
+    BrowDownLeft: 0
+    BrowDownRight: 0
+    BrowInnerUp: 0
+    BrowOuterUpLeft: 0
+    BrowOuterUpRight: 0
+    CheekPuff: 0
+    CheekSquintLeft: 0
+    CheekSquintRight: 0
+    EyeBlinkLeft: 0
+    EyeBlinkRight: 0
+    EyeLookDownLeft: 0
+    EyeLookDownRight: 0
+    EyeLookInLeft: 0
+    EyeLookInRight: 0
+    EyeLookOutLeft: 0
+    EyeLookOutRight: 0
+    EyeLookUpLeft: 0
+    EyeLookUpRight: 0
+    EyeSquintLeft: 0
+    EyeSquintRight: 0
+    EyeWideLeft: 0
+    EyeWideRight: 0
+    JawForward: 0
+    JawLeft: 0
+    JawOpen: 0
+    JawRight: 0
+    MouthClose: 0
+    MouthDimpleLeft: 0
+    MouthDimpleRight: 0
+    MouthFrownLeft: 0
+    MouthFrownRight: 0
+    MouthFunnel: 0
+    MouthLeft: 0
+    MouthLowerDownLeft: 0
+    MouthLowerDownRight: 0
+    MouthPressLeft: 0
+    MouthPressRight: 0
+    MouthPucker: 0
+    MouthRight: 0
+    MouthRollLower: 0
+    MouthRollUpper: 0
+    MouthShrugLower: 0
+    MouthShrugUpper: 0
+    MouthSmileLeft: 0
+    MouthSmileRight: 0
+    MouthStretchLeft: 0
+    MouthStretchRight: 0
+    MouthUpperUpLeft: 0
+    MouthUpperUpRight: 0
+    NoseSneerLeft: 0
+    NoseSneerRight: 0
+    TongueOut: 0
+  m_HeadPosition: {x: 0, y: 0, z: 0}
+  m_HeadOrientation: {x: 0, y: 0, z: 0}
+  m_LeftEyeOrientation: {x: 0, y: 0, z: 0}
+  m_RightEyeOrientation: {x: 0, y: 0, z: 0}
+  m_BlendShapesEnabled: 0
+  m_HeadPositionEnabled: 0
+  m_HeadOrientationEnabled: 0
+  m_EyeOrientationEnabled: 0
+--- !u!95 &1100479257
+Animator:
+  serializedVersion: 5
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1100479254}
+  m_Enabled: 1
+  m_Avatar: {fileID: 0}
+  m_Controller: {fileID: 0}
+  m_CullingMode: 0
+  m_UpdateMode: 0
+  m_ApplyRootMotion: 0
+  m_LinearVelocityBlending: 0
+  m_StabilizeFeet: 0
+  m_WarningMessage: 
+  m_HasTransformHierarchy: 1
+  m_AllowConstantClipSamplingOptimization: 1
+  m_KeepAnimatorStateOnDisable: 0
+  m_WriteDefaultValuesOnDisable: 0
 --- !u!1 &1106135605
 GameObject:
   m_ObjectHideFlags: 1
@@ -1037,6 +728,88 @@ MeshFilter:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1404267463}
   m_Mesh: {fileID: 4300000, guid: fc7b310ba84a21242b0c9c7b6c10041a, type: 3}
+--- !u!1001 &1456621756
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    serializedVersion: 3
+    m_TransformParent: {fileID: 0}
+    m_Modifications:
+    - target: {fileID: -8679921383154817045, guid: 5258ad470c81c8a4499a7690b9a49376, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: 5258ad470c81c8a4499a7690b9a49376, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: -1.42
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: 5258ad470c81c8a4499a7690b9a49376, type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: 5258ad470c81c8a4499a7690b9a49376, type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: 5258ad470c81c8a4499a7690b9a49376, type: 3}
+      propertyPath: m_LocalRotation.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: 5258ad470c81c8a4499a7690b9a49376, type: 3}
+      propertyPath: m_LocalRotation.y
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: 5258ad470c81c8a4499a7690b9a49376, type: 3}
+      propertyPath: m_LocalRotation.z
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: 5258ad470c81c8a4499a7690b9a49376, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: 5258ad470c81c8a4499a7690b9a49376, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: 5258ad470c81c8a4499a7690b9a49376, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: -3416006094661317038, guid: 5258ad470c81c8a4499a7690b9a49376, type: 3}
+      propertyPath: m_RootBone
+      value: 
+      objectReference: {fileID: 1040986574}
+    - target: {fileID: -417878991522404143, guid: 5258ad470c81c8a4499a7690b9a49376, type: 3}
+      propertyPath: m_Name
+      value: Rig
+      objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: 5258ad470c81c8a4499a7690b9a49376, type: 3}
+      propertyPath: m_Name
+      value: Real_Weiblich_1
+      objectReference: {fileID: 0}
+    - target: {fileID: 2480636403939241134, guid: 5258ad470c81c8a4499a7690b9a49376, type: 3}
+      propertyPath: m_RootBone
+      value: 
+      objectReference: {fileID: 1040986574}
+    - target: {fileID: 6937541551142690876, guid: 5258ad470c81c8a4499a7690b9a49376, type: 3}
+      propertyPath: m_RootBone
+      value: 
+      objectReference: {fileID: 1040986574}
+    m_RemovedComponents: []
+    m_RemovedGameObjects: []
+    m_AddedGameObjects: []
+    m_AddedComponents:
+    - targetCorrespondingSourceObject: {fileID: 919132149155446097, guid: 5258ad470c81c8a4499a7690b9a49376, type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 1100479257}
+    - targetCorrespondingSourceObject: {fileID: 919132149155446097, guid: 5258ad470c81c8a4499a7690b9a49376, type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 1100479256}
+    - targetCorrespondingSourceObject: {fileID: 919132149155446097, guid: 5258ad470c81c8a4499a7690b9a49376, type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 1100479255}
+  m_SourcePrefab: {fileID: 100100000, guid: 5258ad470c81c8a4499a7690b9a49376, type: 3}
 --- !u!1 &1489600201
 GameObject:
   m_ObjectHideFlags: 0
@@ -1300,13 +1073,11 @@ SceneRoots:
   m_ObjectHideFlags: 0
   m_Roots:
   - {fileID: 1143068236}
-  - {fileID: 366675672}
   - {fileID: 604574682786935694}
   - {fileID: 719337675}
   - {fileID: 1106135606}
   - {fileID: 625637362}
   - {fileID: 150083441}
-  - {fileID: 178625141}
   - {fileID: 1730286501}
-  - {fileID: 1036066341}
-  - {fileID: 1078992457}
+  - {fileID: 1456621756}
+  - {fileID: 467666788}

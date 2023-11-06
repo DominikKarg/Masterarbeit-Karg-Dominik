@@ -15,5 +15,5 @@ MonoBehaviour:
   m_Evaluator:
     m_Multiplier: 100
     m_Offset: 0
-    m_Max: 100
+    m_Max: 76.7
     m_Clamping: 0

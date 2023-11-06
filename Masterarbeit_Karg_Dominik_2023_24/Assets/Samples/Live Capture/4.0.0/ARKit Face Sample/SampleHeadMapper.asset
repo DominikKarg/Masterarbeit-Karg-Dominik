@@ -12,7 +12,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 7542b0a8b93c044618b3d84f58b4bc3c, type: 3}
   m_Name: SampleHeadMapper
   m_EditorClassIdentifier: 
-  m_RigPrefab: {fileID: 3989087790041628964, guid: 01105ad442a2c6842a902b810878a5e6, type: 3}
+  m_RigPrefab: {fileID: 919132149155446097, guid: 5258ad470c81c8a4499a7690b9a49376, type: 3}
   m_ShapeMatchTolerance: 0.6
   m_DefaultEvaluator: {fileID: 11400000, guid: 23f316e41ee3e46af9c5d6fdc69047b1, type: 2}
   m_InvertMappings: 0
@@ -1995,7 +1995,7 @@ MonoBehaviour:
             m_PostInfinity: 2
             m_RotationOrder: 4
       m_IsExpanded: 1
-    m_IsExpanded: 0
+    m_IsExpanded: 1
   - m_Path: Skull
     m_Bindings:
     - m_Location: 22
