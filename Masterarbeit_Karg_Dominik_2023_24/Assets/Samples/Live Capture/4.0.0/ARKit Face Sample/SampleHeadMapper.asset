@@ -57,6 +57,44 @@ MonoBehaviour:
             m_PostInfinity: 2
             m_RotationOrder: 4
       m_IsExpanded: 1
+    - m_Location: 11
+      m_ShapeIndex: 8
+      m_Config:
+        m_OverrideSmoothing: 0
+        m_Smoothing: 0.1
+        m_EvaluatorPreset: {fileID: 11400000, guid: 23f316e41ee3e46af9c5d6fdc69047b1, type: 2}
+        m_Type: 0
+        m_SimpleEvaluator:
+          m_Multiplier: 100
+          m_Offset: 0
+          m_Max: 100
+          m_Clamping: 0
+        m_CurveEvaluator:
+          m_Curve:
+            serializedVersion: 2
+            m_Curve:
+            - serializedVersion: 3
+              time: 0
+              value: 0
+              inSlope: 0
+              outSlope: 0
+              tangentMode: 0
+              weightedMode: 0
+              inWeight: 0
+              outWeight: 0
+            - serializedVersion: 3
+              time: 1
+              value: 100
+              inSlope: 0
+              outSlope: 0
+              tangentMode: 0
+              weightedMode: 0
+              inWeight: 0
+              outWeight: 0
+            m_PreInfinity: 2
+            m_PostInfinity: 2
+            m_RotationOrder: 4
+      m_IsExpanded: 1
     - m_Location: 2
       m_ShapeIndex: 0
       m_Config:
@@ -325,44 +363,6 @@ MonoBehaviour:
       m_IsExpanded: 1
     - m_Location: 10
       m_ShapeIndex: 7
-      m_Config:
-        m_OverrideSmoothing: 0
-        m_Smoothing: 0.1
-        m_EvaluatorPreset: {fileID: 11400000, guid: 23f316e41ee3e46af9c5d6fdc69047b1, type: 2}
-        m_Type: 0
-        m_SimpleEvaluator:
-          m_Multiplier: 100
-          m_Offset: 0
-          m_Max: 100
-          m_Clamping: 0
-        m_CurveEvaluator:
-          m_Curve:
-            serializedVersion: 2
-            m_Curve:
-            - serializedVersion: 3
-              time: 0
-              value: 0
-              inSlope: 0
-              outSlope: 0
-              tangentMode: 0
-              weightedMode: 0
-              inWeight: 0
-              outWeight: 0
-            - serializedVersion: 3
-              time: 1
-              value: 100
-              inSlope: 0
-              outSlope: 0
-              tangentMode: 0
-              weightedMode: 0
-              inWeight: 0
-              outWeight: 0
-            m_PreInfinity: 2
-            m_PostInfinity: 2
-            m_RotationOrder: 4
-      m_IsExpanded: 1
-    - m_Location: 11
-      m_ShapeIndex: 8
       m_Config:
         m_OverrideSmoothing: 0
         m_Smoothing: 0.1
@@ -893,44 +893,6 @@ MonoBehaviour:
             m_PostInfinity: 2
             m_RotationOrder: 4
       m_IsExpanded: 1
-    - m_Location: 30
-      m_ShapeIndex: 22
-      m_Config:
-        m_OverrideSmoothing: 0
-        m_Smoothing: 0.1
-        m_EvaluatorPreset: {fileID: 11400000, guid: 23f316e41ee3e46af9c5d6fdc69047b1, type: 2}
-        m_Type: 0
-        m_SimpleEvaluator:
-          m_Multiplier: 100
-          m_Offset: 0
-          m_Max: 100
-          m_Clamping: 0
-        m_CurveEvaluator:
-          m_Curve:
-            serializedVersion: 2
-            m_Curve:
-            - serializedVersion: 3
-              time: 0
-              value: 0
-              inSlope: 0
-              outSlope: 0
-              tangentMode: 0
-              weightedMode: 0
-              inWeight: 0
-              outWeight: 0
-            - serializedVersion: 3
-              time: 1
-              value: 100
-              inSlope: 0
-              outSlope: 0
-              tangentMode: 0
-              weightedMode: 0
-              inWeight: 0
-              outWeight: 0
-            m_PreInfinity: 2
-            m_PostInfinity: 2
-            m_RotationOrder: 4
-      m_IsExpanded: 1
     - m_Location: 32
       m_ShapeIndex: 21
       m_Config:
@@ -971,6 +933,44 @@ MonoBehaviour:
       m_IsExpanded: 1
     - m_Location: 35
       m_ShapeIndex: 21
+      m_Config:
+        m_OverrideSmoothing: 0
+        m_Smoothing: 0.1
+        m_EvaluatorPreset: {fileID: 11400000, guid: 23f316e41ee3e46af9c5d6fdc69047b1, type: 2}
+        m_Type: 0
+        m_SimpleEvaluator:
+          m_Multiplier: 100
+          m_Offset: 0
+          m_Max: 100
+          m_Clamping: 0
+        m_CurveEvaluator:
+          m_Curve:
+            serializedVersion: 2
+            m_Curve:
+            - serializedVersion: 3
+              time: 0
+              value: 0
+              inSlope: 0
+              outSlope: 0
+              tangentMode: 0
+              weightedMode: 0
+              inWeight: 0
+              outWeight: 0
+            - serializedVersion: 3
+              time: 1
+              value: 100
+              inSlope: 0
+              outSlope: 0
+              tangentMode: 0
+              weightedMode: 0
+              inWeight: 0
+              outWeight: 0
+            m_PreInfinity: 2
+            m_PostInfinity: 2
+            m_RotationOrder: 4
+      m_IsExpanded: 1
+    - m_Location: 30
+      m_ShapeIndex: 22
       m_Config:
         m_OverrideSmoothing: 0
         m_Smoothing: 0.1
@@ -1121,8 +1121,8 @@ MonoBehaviour:
             m_PostInfinity: 2
             m_RotationOrder: 4
       m_IsExpanded: 1
-    - m_Location: 44
-      m_ShapeIndex: 24
+    - m_Location: 45
+      m_ShapeIndex: 23
       m_Config:
         m_OverrideSmoothing: 0
         m_Smoothing: 0.1
@@ -1159,8 +1159,8 @@ MonoBehaviour:
             m_PostInfinity: 2
             m_RotationOrder: 4
       m_IsExpanded: 1
-    - m_Location: 45
-      m_ShapeIndex: 23
+    - m_Location: 44
+      m_ShapeIndex: 24
       m_Config:
         m_OverrideSmoothing: 0
         m_Smoothing: 0.1
@@ -3409,12 +3409,12 @@ MonoBehaviour:
       m_IsExpanded: 1
     m_IsExpanded: 1
   m_EyeMovementDriver: 0
-  m_LeftEye: Rig/Chest/Neck/Head 1/Eye_L
-  m_RightEye: Rig/Chest/Neck/Head 1/Eye_R
+  m_LeftEye: AvatarLeftEyeball
+  m_RightEye: AvatarRightEyeball
   m_EyeAngleRange: {x: 45, y: 30}
   m_EyeAngleOffset: {x: 0, y: 0}
   m_EyeSmoothing: 0.1
   m_HeadPosition: Rig
-  m_HeadRotation: Rig/Chest/Neck/Head 1
-  m_HeadSmoothing: 0.1
-  m_BlendShapeSmoothing: 0.1
+  m_HeadRotation: Rig/Spine/Spine1/Spine2/Neck/Neck1
+  m_HeadSmoothing: 0.104
+  m_BlendShapeSmoothing: 0.098
